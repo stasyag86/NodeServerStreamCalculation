@@ -1,0 +1,16 @@
+{
+  "name": "data-server",
+  "version": "1.0.0",
+  "description": "Backend task",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js"
+  },
+  "author": "Stas",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^2.3.2",
+    "express": "^4.14.0"
+  }
+}
